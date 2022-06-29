@@ -15,5 +15,52 @@ html {
 }
 
 body {
+	background-color: var(--color-primary-background, darkslategray);
 	font-family: "Manrope", sans-serif;
+	font-size: 28px;
+	text-align: center;
+}
+
+#wrapper {
+	background-color: var(--color-secondary-background, slategray);
+	border-radius: 10px;
+	margin: 30vh auto 0;
+	padding: 30px;
+	width: 75vw;
+}
+
+h1 {
+	color: var(--color-primary-neon, palegreen);
+	text-transform: uppercase;
+	font-size: 0.5em;
+	letter-spacing: 3px;
+	padding-top: 10px;
+}
+p {
+	color: var(--color-primary-light, whitesmoke);
+	font-weight: 800;
+}
+
+#divider {
+	padding-bottom: 40px;
+}
+
+#diceBtn {
+	background-color: var(--color-primary-neon, palegreen);
+	padding: 15px;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	margin: -35px auto 0;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+	#wrapper {
+		width: 33vw;
+	}
+	#divider {
+		padding-top: 15px;
+		padding-bottom: 50px;
+	}
 }
