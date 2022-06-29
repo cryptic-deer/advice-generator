@@ -1,6 +1,6 @@
 # Advice generator app
 
-[](/screenshot.png)
+![](screenshot.png)
 
 - Really simple random advice generator, to practice handling APIs
 
